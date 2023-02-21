@@ -1,5 +1,5 @@
-# nextjs-chakra-ui-landing-page
-- Testing Nextjs
+# Nextjs-Chakra-Ui-Landing-Page
+- Learning to build a landing page with Nextjs and Chakra UI
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
