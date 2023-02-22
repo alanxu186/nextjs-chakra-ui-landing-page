@@ -32,7 +32,7 @@ export default function Navbar() {
         color={useColorModeValue('gray.600', 'white')}
         minH={'60px'}
         py={{ base: 2 }}
-        px={{ base: 4 }}
+        px={{ base: 10 }}
         borderBottom={1}
         borderStyle={'solid'}
         borderColor={useColorModeValue('gray.200', 'gray.900')}
@@ -55,7 +55,12 @@ export default function Navbar() {
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
-            Logo
+            <Button
+              as={'a'}
+              href="/"
+              variant={"link"}>
+              Logo
+            </Button>
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -73,7 +78,7 @@ export default function Navbar() {
             fontSize={'sm'}
             fontWeight={400}
             variant={'link'}
-            href={'#'}>
+            href="/signin">
             Sign In
           </Button>
           <Button
@@ -83,7 +88,7 @@ export default function Navbar() {
             fontWeight={600}
             color={'white'}
             bg={'pink.400'}
-            href={'#'}
+            href="/signup"
             _hover={{
               bg: 'pink.300',
             }}>
